@@ -45,7 +45,6 @@ function removeNthElement(arr, n) {
     */
 
     arr.splice(n,1)
-    // console.log('--------------------------',arr)
     return arr
 
     
