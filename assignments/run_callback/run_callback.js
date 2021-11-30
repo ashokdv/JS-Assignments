@@ -1,12 +1,12 @@
-function cb(output){
-    // console.log(output);
-    return output;
-}
+// function cb(output){
+//     // console.log(output);
+//     return output;
+// }
 
 function RunCallback(a, b, cb) {
     // Write you code here, you need to add a and b, pass the result into callback function cb as argument return the result
-    output = a+b
-    return cb(output);
+    // output = a+b
+    return cb(a+b);
 }
 
 
